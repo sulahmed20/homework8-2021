@@ -1,3 +1,5 @@
+
+
 // Variables!
 var radius = 15;
 var x = 50;
@@ -11,8 +13,15 @@ var colorPicker = document.querySelector("input");
 
 
 //Listeners!!
+
 //Add a listener for loading the window
+window.addEventListener("load", function() {
+	console.log("Good job opening the window")
+});
+
 //Add a listener for the color picker
+
+
 //Add a listener for the mouse movement (started below)
 //Add a listener for the key events (started below)
 
@@ -33,5 +42,6 @@ document.addEventListener('keydown', function(e){
 function draw(){
 	console.log("I am going to draw!!");
 	//CHECK OUT beginPath()
+	ctx.beginPath();
 }
 
